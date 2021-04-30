@@ -22,8 +22,8 @@ export default function Home() {
             className={styles.image}
             src="/conrad.jpg"
             alt="picture of Conrad"
-            width={450}
-            height={450}
+            width={500}
+            height={500}
           />
         </div>
 
