@@ -1,7 +1,5 @@
 .container {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -14,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  margin: 10px;
 }
 
 .footer {
@@ -45,7 +43,6 @@
 @media screen and (min-width: 601px) {
   .title {
     margin: 0;
-    line-height: 1.15;
     font-size: 4rem;
   }
 }
@@ -53,7 +50,6 @@
 @media screen and (max-width: 600px) {
   .title {
     margin: 0;
-    line-height: 1.15;
     font-size: 2.5rem;
   }
 }
@@ -73,5 +69,5 @@
 }
 
 .mixcloud {
-  width: 90%;
+  width: 100%;
 }
