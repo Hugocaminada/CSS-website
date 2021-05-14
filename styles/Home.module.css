@@ -71,3 +71,26 @@
 .mixcloud {
   max-width: 750px;
 }
+
+.soundcloud {
+  font-size: 10px;
+  color: #cccccc;
+  line-break: anywhere;
+  word-break: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+    Garuda, Verdana, Tahoma, sans-serif;
+  font-weight: 100;
+}
+
+.soundcloud a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.youtube {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
